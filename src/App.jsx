@@ -5,6 +5,9 @@ function App() {
 	return (
         <div className="background">
             <Landing />
+            <div className="container mx-auto p-8">
+                <About />
+            </div>
         </div>
 	);
 }
