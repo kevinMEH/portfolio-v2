@@ -4,6 +4,7 @@ import About from "./Home/About"
 function App() {
 	return (
         <div className="background">
+            <Landing />
         </div>
 	);
 }

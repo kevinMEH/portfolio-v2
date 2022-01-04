@@ -10,6 +10,12 @@
     background: linear-gradient(254deg, #564cff 0%, rgb(255, 71, 126) 100%);
 }
 
-.landing2 {
-    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 17, 22, 0.5) 0%, var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, rgb(16, 23, 35)) /* {"name":"Bg"} */ 100%);
+.mobileLanding2 {
+    background: radial-gradient(65% 45% at 50% 50%, rgba(14, 17, 22, 0.5) 0%, var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, rgb(16, 23, 35)) /* {"name":"Bg"} */ 100%);
+}
+
+@media (min-width: 768px) {
+    .landing2 {
+        background: radial-gradient(50% 50% at 50% 50%, rgba(14, 17, 22, 0.5) 0%, var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, rgb(16, 23, 35)) /* {"name":"Bg"} */ 100%);
+    }
 }
