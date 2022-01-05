@@ -1,6 +1,9 @@
-const Title = ({text}) => {
+const Title = ({label, text}) => {
     return (
-        <h1 className="text-white font-semibold tracking-wide text-2xl text-center mb-8">{text}</h1>
+        <div className="mb-4 space-y-2">
+            <h1 className="text-gray-600 font-black tracking-wide uppercase text-sm">{"— " + label}</h1>
+            <h1 className="text-gray-300 font-semibold tracking-wide text-2xl">{text}</h1>
+        </div>
     )
 }
 
