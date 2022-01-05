@@ -3,9 +3,9 @@ import Title from "./components/Title";
 const About = () => {
     return (
         <div>
-            <Title text="About Me" />
+            <Title label="ABOUT" text="Hello! I'm Kevin," />
             <div className="text-gray-400 space-y-2">
-                <p><strong className="font-medium">Hello!</strong> I'm Kevin, a computer science student from Brooklyn.</p>
+                <p>a computer science student from Brooklyn.</p>
                 <p>From a young age, I've been fascinated by the internet. I remember coming home from school everyday to checkout beautiful websites and play awesome flash games.</p>
                 <p>Today, I take my adventure with the internet one step further. I'm an experienced web developer who specializes in building beautiful and unique websites, capable of elevating your brand and conveying your message across to millions of others.</p>
             </div>
