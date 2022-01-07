@@ -1,7 +1,7 @@
-const Title = ({label, text}) => {
+const Title = ({label, text, center = false}) => {
     return (
-        <div className="mb-3 space-y-2">
-            <h1 className="text-gray-600 font-black tracking-wide uppercase text-sm">{"— " + label}</h1>
+        <div className={center ? "text-center mb-3 space-y-2" : "mb-3 space-y-2"}>
+            <h1 className="text-gray-600 font-black tracking-wide uppercase text-sm">{center ? label : "— " + label}</h1>
             <h1 className="text-gray-300 font-semibold tracking-wide text-2xl">{text}</h1>
         </div>
     )
