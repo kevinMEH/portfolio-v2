@@ -2,6 +2,7 @@ import Landing from "./Home/Landing"
 import About from "./Home/About"
 import Projects from "./Home/Projects";
 import Contact from "./Home/Contact";
+import Footer from "./Home/Footer";
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
                 <About />
                 <Projects />
                 <Contact />
+                <Footer />
             </div>
         </div>
 	);
