@@ -1,6 +1,7 @@
 import Landing from "./Home/Landing"
 import About from "./Home/About"
 import Projects from "./Home/Projects";
+import Contact from "./Home/Contact";
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
             <div className="container mx-auto p-8">
                 <About />
                 <Projects />
+                <Contact />
             </div>
         </div>
 	);
