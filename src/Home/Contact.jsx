@@ -8,8 +8,8 @@ const Contact = () => {
 				text={"Lets start working!"}
 				center={true}
 			/>
-			<div className="space-y-4">
-				<p className="text-gray-400 text-center">
+			<div className="space-y-5 md:pt-2">
+				<p className="text-gray-400 text-center md:text-lg md:w-3/4 md:mx-auto">
 					I'm always looking for opportunities to work on new projects.
                     Press the button below and let's start working!
 				</p>
