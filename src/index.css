@@ -19,3 +19,7 @@
         background: radial-gradient(50% 50% at 50% 50%, rgba(14, 17, 22, 0.5) 0%, var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, rgb(16, 23, 35)) /* {"name":"Bg"} */ 100%);
     }
 }
+
+.github {
+    background: linear-gradient(148deg, var(--token-8379ffeb-5f41-46af-9e19-ceffa86fdc66, #2d67d2) /* {"name":"Blue"} */ 0%, var(--token-a320813c-894d-40e2-b9d2-81628714f389, rgb(123, 69, 217)) /* {"name":"Purple"} */ 100%);
+}
