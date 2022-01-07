@@ -7,7 +7,7 @@ function App() {
 	return (
         <div className="background">
             <Landing />
-            <div className="container mx-auto p-8">
+            <div className="container mx-auto p-8 space-y-40">
                 <About />
                 <Projects />
                 <Contact />
