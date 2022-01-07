@@ -8,7 +8,7 @@ function App() {
 	return (
         <div className="background">
             <Landing />
-            <div className="container mx-auto p-8 space-y-40">
+            <div className="container mx-auto p-8 space-y-40 lg:space-y-48 lg:px-44 xl:px-72">
                 <About />
                 <Projects />
                 <Contact />
