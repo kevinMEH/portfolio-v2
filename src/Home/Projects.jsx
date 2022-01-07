@@ -16,7 +16,7 @@ const Projects = () => {
 					desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					url="https://images.unsplash.com/photo-1567588344489-e1466a854e2e?fit=crop&w=900&q=80"
 				/>
-				<div className="github rounded-lg px-6 py-6 space-y-2 relative h-48">
+				<div className="github rounded-lg flex flex-col justify-around p-6 relative h-48">
 					<h2 className="text-white text-xl font-semibold tracking-wide text-center">
 						Ready to see more?
 					</h2>
@@ -24,8 +24,8 @@ const Projects = () => {
 						I open source most of my projects. Check out my GitHub
 						page for a list of all my projects!
 					</p>
-					<div className="flex justify-center pt-1">
-						<a href="https://github.com/kevinMEH" className="font-medium leading-relaxed text-white text-sm flex bg-black/10 px-6 py-2 rounded-full">
+					<div className="flex justify-center pt-2">
+						<a href="https://github.com/kevinMEH" className="font-medium leading-relaxed tracking-wide text-white text-sm flex bg-black/10 px-6 py-2 rounded-full">
 							GitHub
 						</a>
 					</div>
