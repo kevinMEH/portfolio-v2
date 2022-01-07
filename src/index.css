@@ -7,19 +7,47 @@
 }
 
 .landing {
-    background: linear-gradient(254deg, #564cff 0%, rgb(255, 71, 126) 100%);
+    background: linear-gradient(254deg, rgb(85, 76, 255, 0.75) 0%, rgba(255, 71, 126, 0.75) 100%);
 }
 
-.mobileLanding2 {
+.landing2 {
     background: radial-gradient(65% 45% at 50% 50%, rgba(14, 17, 22, 0.5) 0%, var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, rgb(16, 23, 35)) /* {"name":"Bg"} */ 100%);
-}
-
-@media (min-width: 768px) {
-    .landing2 {
-        background: radial-gradient(50% 50% at 50% 50%, rgba(14, 17, 22, 0.5) 0%, var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, rgb(16, 23, 35)) /* {"name":"Bg"} */ 100%);
-    }
 }
 
 .github {
     background: linear-gradient(148deg, var(--token-8379ffeb-5f41-46af-9e19-ceffa86fdc66, #2d67d2) /* {"name":"Blue"} */ 0%, var(--token-a320813c-894d-40e2-b9d2-81628714f389, rgb(123, 69, 217)) /* {"name":"Purple"} */ 100%);
+}
+
+.gradientText {
+    background-image: linear-gradient( 90deg, rgb(255, 75, 129), rgb(86, 76, 255), rgb(76, 255, 136) );
+    background-size: 400% 100%;
+    
+    background-clip: text;
+    color: transparent;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: rotateColor 15s infinite alternate;
+    -webkit-animation: rotateColor 15s infinite alternate;
+}
+
+@keyframes rotateColor {
+    0% {
+        filter: hue-rotate(-80deg);
+    } 50% {
+        filter: hue-rotate(30deg);
+    } 100% {
+        filter: hue-rotate(-80deg);
+    }
+}
+
+@-webkit-keyframes rotateColor {
+    0% {
+        -webkit-filter: hue-rotate(-110deg);
+    } 50% {
+        -webkit-filter: hue-rotate(30deg);
+    } 100% {
+        -webkit-filter: hue-rotate(-110deg);
+    }
 }
