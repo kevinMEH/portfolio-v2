@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div>
                 <img src="./../../assets/vscode.png"/>
-                <div className="relative -top-24 z-10 rounded-lg p-8 shadow-2xl shadow-black space-y-2 background">
+                <div className="relative -top-24 -mb-24 z-10 rounded-lg p-8 shadow-2xl shadow-black space-y-2 background">
                     <h1 className="font-semibold text-lg text-white tracking-wide">Technologies I work with:</h1>
                     <p className="text-gray-400 pb-2">Here are some of the technologies I work with: I'm learning more everyday!</p>
                     <div className="space-y-3">
