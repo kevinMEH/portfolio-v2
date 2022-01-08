@@ -9,14 +9,14 @@ const Contact = () => {
 				center={true}
 			/>
 			<div className="space-y-5 md:pt-2">
-				<p className="text-gray-400 text-center md:text-lg md:w-3/4 md:mx-auto">
+				<p className="text-gray-400 text-center md:text-lg 2xl:text-xl max-w-md 2xl:max-w-xl mx-auto lg:tracking-wide">
 					I'm always looking for opportunities to work on new projects.
                     Press the button below and let's start working!
 				</p>
 				<div className="flex justify-center pt-1">
 					<a
 						href="mailto:hello@liao.gg"
-						className="px-5 py-2.5 rounded-lg text-indigo-100 
+						className="px-5 py-2.5 2xl:px-7 2xl:py-3.5 2xl:text-xl rounded-lg text-indigo-100 
                         shadow-xl shadow-indigo-500/10 hover:shadow-indigo-500/20
                         bg-indigo-500/10 hover:bg-indigo-500/20 
                         border-2 border-indigo-500/70 hover:border-indigo-500
