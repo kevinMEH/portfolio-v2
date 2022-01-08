@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, #101723);
+}
+
 .background {
     background-color: var(--token-3188080c-cb4e-4740-95cc-04a22be0db0f, #101723);
 }
