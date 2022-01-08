@@ -1,4 +1,5 @@
 import Title from "./components/Title";
+import vscode from "./assets/vscode.png";
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
                 <p>Today, I take my adventure with the internet one step further. I'm an experienced web developer who specializes in building beautiful and unique websites, capable of elevating your brand and conveying your message across to millions of others.</p>
             </div>
             <div>
-                <img src="./../../assets/vscode.png" alt="VScode stock image" />
+                <img src={vscode} alt="VScode stock image" />
                 <div className="relative z-10 rounded-lg p-8 2xl:px-10 shadow-2xl shadow-black/75 space-y-2 background
                 -top-24 -mb-24
                 md:-top-40 md:-mb-40
