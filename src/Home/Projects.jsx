@@ -10,12 +10,14 @@ const Projects = () => {
 					title="This Portfolio"
 					desc="The second iteration of my personal portfolio built with ReactJS and Tailwind CSS. Open sourced on GitHub."
 					img="https://images.unsplash.com/photo-1639793677434-b7c29536388a?fit=crop&w=900&q=80"
+                    alt="Portfolio cover image"
                     url="https://github.com/kevinMEH/portfolio-v2"
 				/>
 				<Work
 					title="Hello World"
 					desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					img="https://images.unsplash.com/photo-1567588344489-e1466a854e2e?fit=crop&w=900&q=80"
+                    alt="Lorem Ipsum cover image"
 				/>
 				<div className="github flex flex-col justify-around p-6 2xl:p-8 relative 
                 rounded-lg md:rounded-xl 2xl:rounded-2xl
@@ -38,10 +40,10 @@ const Projects = () => {
 	);
 };
 
-const Work = ({ title, desc, img, url }) => {
+const Work = ({ title, desc, img, alt, url }) => {
 	return (
 		<a href={url} className="relative block rounded-lg overflow-hidden md:rounded-xl 2xl:rounded-2xl">
-			<img className="object-cover w-full h-48 md:h-52 lg:h-56 2xl:h-60" src={img} />
+			<img className="object-cover w-full h-48 md:h-52 lg:h-56 2xl:h-60" src={img} alt={alt} />
 			<div className="absolute top-0 left-0 right-0 bottom-0 background opacity-70 hover:opacity-50 transition-opacity duration-500"></div>
 			<div className="absolute bottom-6 left-6 pr-6 lg:bottom-8 lg:left-8 2xl:bottom-10 2xl:left-10 sm:w-2/3 2xl:w-3/5">
 				<h2 className="text-white text-xl md:text-2xl 2xl:text-3xl md:leading-relaxed font-semibold tracking-wide">
