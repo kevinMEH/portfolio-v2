@@ -1,3 +1,5 @@
+This project is outdated. [View the new version of my portfolio here!](https://github.com/kevinMEH/portfolio)
+
 # v2
 
 Hello, and welcome to my portfolio!
